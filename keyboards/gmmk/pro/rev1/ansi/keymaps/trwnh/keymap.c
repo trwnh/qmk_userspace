@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
     [1] = { ENCODER_CCW_CW(RM_PREV, RM_NEXT) },
-    [2] = { ENCODER_CCW_CW(MS_WHLD, MS_WHLU) },
+    [2] = { ENCODER_CCW_CW(MS_WHLU, MS_WHLD) },
     [3] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
 };
 #endif
@@ -100,7 +100,7 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     if (host_keyboard_led_state().caps_lock) {
         for (uint8_t i = led_min; i < led_max; i++) {
             if (g_led_config.flags[i] & LED_FLAG_KEYLIGHT) {
-                rgb_matrix_set_color(i, 255, 56, 56);
+                rgb_matrix_set_color(i, 255, 38, 38);
             }
         }
     }

@@ -14,6 +14,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#define FORCE_NKRO
+
 #ifdef RGB_MATRIX_ENABLE
 
 	// #undef ENABLE_RGB_MATRIX_SOLID_COLOR                // Static single hue, no speed support
@@ -31,7 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	// #undef ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT           // Full gradient scrolling left to right
 	// #undef ENABLE_RGB_MATRIX_CYCLE_UP_DOWN              // Full gradient scrolling top to bottom
 	// #undef ENABLE_RGB_MATRIX_CYCLE_OUT_IN               // Full gradient scrolling out to in [rainbow circles coming into center]
-	// #undef ENABLE_RGB_MATRIX_CYCLE_OUT_IN_DUAL          // Full dual gradients scrolling out to in [two rainbow circles coming to 1/3 and 2/3 points]
+	#undef ENABLE_RGB_MATRIX_CYCLE_OUT_IN_DUAL          // Full dual gradients scrolling out to in [two rainbow circles coming to 1/3 and 2/3 points]
 	#undef ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON     // Full gradient Chevron shapped scrolling left to right
 	#undef ENABLE_RGB_MATRIX_CYCLE_PINWHEEL             // Full gradient spinning pinwheel around center of keyboard
 	#undef ENABLE_RGB_MATRIX_CYCLE_SPIRAL               // Full gradient spinning spiral around center of keyboard
@@ -44,23 +46,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	#undef ENABLE_RGB_MATRIX_HUE_BREATHING              // Hue shifts up a slight amount at the same time, then shifts back
 	#undef ENABLE_RGB_MATRIX_HUE_PENDULUM               // Hue shifts up a slight amount in a wave to the right, then back to the left
 	#undef ENABLE_RGB_MATRIX_HUE_WAVE                   // Hue shifts up a slight amount and then back down in a wave to the right
-	// #undef ENABLE_RGB_MATRIX_PIXEL_FRACTAL              // Single hue fractal filled keys pulsing horizontally out to edges
-	// #undef ENABLE_RGB_MATRIX_PIXEL_FLOW                 // Pulsing RGB flow along LED wiring with random hues
+	#undef ENABLE_RGB_MATRIX_PIXEL_FRACTAL              // Single hue fractal filled keys pulsing horizontally out to edges
+	#undef ENABLE_RGB_MATRIX_PIXEL_FLOW                 // Pulsing RGB flow along LED wiring with random hues
 	#undef ENABLE_RGB_MATRIX_PIXEL_RAIN                 // Randomly light keys with random hues
-	// #undef ENABLE_RGB_MATRIX_TYPING_HEATMAP             // How hot is your WPM!
-	// #undef ENABLE_RGB_MATRIX_DIGITAL_RAIN               // That famous computer simulation
+	#undef ENABLE_RGB_MATRIX_TYPING_HEATMAP             // How hot is your WPM!
+	#undef ENABLE_RGB_MATRIX_DIGITAL_RAIN               // That famous computer simulation
 	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE      // Pulses keys hit to hue & value then fades value out [key hits shown in current hue - all other keys black: wide slightly better imo]
 	// #undef ENABLE_RGB_MATRIX_SOLID_REACTIVE             // Static single hue, pulses keys hit to shifted hue then fades to current hue [key hits shown in current hue - all other keys shifted hue]
-	// #undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_WIDE        // Hue & value pulse around a single key hit then fades value out [black otherwise]
+	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_WIDE        // Hue & value pulse around a single key hit then fades value out [black otherwise]
 	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE   // [same as above but a bit too intense imo]
 	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_CROSS       // Hue & value pulse the same column and row of a single key hit then fades value out [column and row single color fade]
 	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTICROSS  // [same as above but with multikeys]
 	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS       // Hue & value pulse away on the same column and row of a single key hit then fades value out
 	#undef ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS  // Hue & value pulse away on the same column and row of a single key hit then fades value out
-	// #undef ENABLE_RGB_MATRIX_SPLASH                     // Full gradient & value pulse away from a single key hit then fades value out [all else black]
-	#undef ENABLE_RGB_MATRIX_MULTISPLASH                // [same as above but with multikeys]
-	// #undef ENABLE_RGB_MATRIX_SOLID_SPLASH               // Hue & value pulse away from a single key hit then fades value out [using solid_reactive_wide instead]
-	#undef ENABLE_RGB_MATRIX_SOLID_MULTISPLASH          // [same as above but with multikeys]
+	#undef ENABLE_RGB_MATRIX_SPLASH                     // Full gradient & value pulse away from a single key hit then fades value out [all else black]
+	// #undef ENABLE_RGB_MATRIX_MULTISPLASH                // [same as above but with multikeys]
+	#undef ENABLE_RGB_MATRIX_SOLID_SPLASH               // Hue & value pulse away from a single key hit then fades value out [using solid_reactive_wide instead]
+	// #undef ENABLE_RGB_MATRIX_SOLID_MULTISPLASH          // [same as above but with multikeys]
 	// #undef ENABLE_RGB_MATRIX_STARLIGHT                  // LEDs turn on and off at random at varying brightness, maintaining user set color
 	#undef ENABLE_RGB_MATRIX_STARLIGHT_DUAL_HUE         // LEDs turn on and off at random at varying brightness, modifies user set hue by +- 30
 	// #undef ENABLE_RGB_MATRIX_STARLIGHT_DUAL_SAT         // LEDs turn on and off at random at varying brightness, modifies user set saturation by +- 30

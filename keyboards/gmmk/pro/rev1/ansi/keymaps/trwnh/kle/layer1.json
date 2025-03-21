@@ -1,0 +1,8 @@
+[{a:7},"",{x:0.25,a:6},"F13","F14","F15","F16",{x:0.25},"F17","F18","F19","F20",{x:0.25},"F21","F22","F23","F24",{x:0.25,a:7},"",{x:0.5,c:"#4189fa",a:4},"<\n\n>\n\n\n\n\n\n\nrgb mode"],
+[{y:0.25,c:"#cccccc",a:7},"","","","","","","","","","","","","",{w:2},"",{x:0.5,a:6},"Insert"],
+[{a:7,w:1.5},"",{c:"#4189fa",a:4},"Q\nHue +\n\n\n\n\nRGB","W\nSat +\n\n\n\n\nRGB","E\nVal +\n\n\n\n\nRGB","R\nSpd +\n\n\n\n\nRGB","T\nRGB\n\n\n\n\ntoggle",{c:"#cccccc",a:7},"","","","","","","",{w:1.5},"",{x:0.5,a:4},"\nBrk\n\n\n\n\nPause"],
+[{a:7,w:1.75},"",{c:"#4189fa",a:4},"A\nHue -\n\n\n\n\nRGB","S\nSat -\n\n\n\n\nRGB","D\nVal -\n\n\n\n\nRGB","F\nSpd -\n\n\n\n\nRGB",{c:"#cccccc",a:7},"","","","","","","",{w:2.25},"",{x:0.5,a:4},"\nLock\n\n\n\n\nScroll"],
+[{c:"#259c38",a:6,w:2.25},"Stop",{c:"#4189fa",a:4},"Z\nMode\n\n\n\n\nRGB","X\nRMode\n\n\n\n\nRGB",{c:"#cccccc",a:7},"","","",{a:4},"N\nrollover\n\n\n\n\nkey",{a:7},"","","","",{w:1.75},"",{x:1.5,a:6},"App"],
+[{y:-0.75,x:14.25,c:"#c98ee8"},"PgUp"],
+[{y:-0.25,c:"#259c38",w:1.25},"Prev",{a:4,w:1.25},"\nPause\n\n\n\n\nPlay/",{a:6,w:1.25},"Next",{c:"#cccccc",a:7,w:6.25},"Reset to Bootloader",{a:6},"Fn2",{c:"#000000",a:7},"",{c:"#cccccc"},""],
+[{y:-0.75,x:13.25,c:"#c98ee8",a:6},"Home","PgDn","End"]
