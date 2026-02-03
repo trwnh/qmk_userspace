@@ -36,6 +36,7 @@
 	- fn+z = rgb mode forward
 	- fn+x = rgb mode reverse
 	- fn+t = rgb toggle
+	- fn+rotary also controls rgb mode (cw forward, ccw backward, click to toggle)
 - mouse control on layer 2 (fn+ralt)
 	- fn+ralt+arrow keys to move
 	- fn+ralt+enter = left click
